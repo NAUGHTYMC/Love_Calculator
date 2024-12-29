@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calc | BhaweshC0der</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="chat2.css"> -->
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="scrollbar.css">
+</head>
+
+<body style="height: 100vh;">
+    <div class="container">
+        <div class="part1">
+            <form class="form">
+                <div class="names">
+                    <span>Enter Name of:</span>
+                    <div class="name">
+                        <input type="text" required id="boy" placeholder="Nibba ex: Bhawesh" class="bname">
+                        <input type="text" required id="girl" placeholder="Nibbi ex: Angel" class="gname">
+                    </div>
+                </div>
+                <div class="ages">
+                    <span>Enter Age of:</span>
+                    <div class="age">
+                        <input type="number" min="10" max="30" placeholder="Boy" class="bage">
+                        <input type="number" min="10" max="30" placeholder="Girl" class="gage">
+                    </div>
+                </div>
+                <div class="skins">
+                    <span>Rate Skin Color:(1-10)</span>
+                    <div class="skin">
+                        <input type="number" min="1" max="10" placeholder="Boy" class="bskin">
+                        <input type="number" min="1" max="10" placeholder="Girl" class="gskin">
+                    </div>
+                </div>
+                <div class="looks">
+                    <span>Rate Looks:(1-10)</span>
+                    <div class="look">
+                        <input type="number" min="1" max="10" placeholder="Boy" class="blook">
+                        <input type="number" min="1" max="10" placeholder="Girl" class="glook">
+                    </div>
+                </div>
+                <div class="heights">
+                    <span>Rate Height:(1-10)</span>
+                    <div class="height">
+                        <input type="number" min="1" max="10" placeholder="Boy" class="bheight">
+                        <input type="number" min="1" max="10" placeholder="Girl" class="gheight">
+                    </div>
+                </div>
+                <div class="behaves">
+                    <span>Rate Behaviour:(1-10)</span>
+                    <div class="behave">
+                        <input type="number" min="1" max="10" placeholder="Boy" class="bbehave">
+                        <input type="number" min="1" max="10" placeholder="Girl" class="gbehave">
+                    </div>
+                </div>
+                <div class="submit">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="part2">
+            <span style="text-align: center; width: 100%;">Love Meter: 00%</span>
+            <div class="lovebar">
+                <div class="loveheight"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

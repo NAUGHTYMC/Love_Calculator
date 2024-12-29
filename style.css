@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    /* min-height: 100vh; */
+    background-image: linear-gradient(to bottom right, #ff007f, #ff6ec7);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.part1, .part2{
+    /* margin: 50px; */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.part1{
+    width: 80%;
+    /* height: 100%; */
+}
+.part2{
+    width: 20%;
+    /* height: 100%; */
+    flex-direction: column;
+
+}
+
+.names, .ages, .skins, .looks, .heights, .behaves {
+    margin-bottom: 20px;
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"], input[type="number"] {
+    /* width: calc(50% - 10px); Adjust width for side-by-side inputs */
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+.lovebar{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 000.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+button{
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 000.2);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    outline: none;
+    transition: all 0.3s ease;
+    display: block;
+    /* margin-bottom: 10px; */
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.loveheight{
+    height: 0;
+    width: 100%;
+    background-color: pink;
+    border-radius: 10px;
+    transition: all 1s ease-out;
+}

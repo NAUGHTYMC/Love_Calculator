@@ -1,0 +1,22 @@
+/* Scrollbar container */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background: #ffe4e1; /* Light pink for the track */
+    border-radius: 6px; /* Rounded corners */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #ff69b4; /* Hot pink for the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+    border: 3px solid #ffe4e1; /* Add padding effect */
+}
+
+/* Scrollbar thumb hover effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff1493; /* Deep pink when hovered */
+}

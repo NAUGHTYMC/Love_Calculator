@@ -1,0 +1,6 @@
+bheight = parseInt(bheight)
+    gheight = parseInt(gheight)
+    ggheight =bheight
+    sheight = gheight
+    if (gheight > bheight){ggheight=gheight; sheight=bheight}
+    p4 = 5 - (ggheight - sheight)
